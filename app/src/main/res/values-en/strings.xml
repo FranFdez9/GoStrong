@@ -330,7 +330,6 @@
     <string name="ej_flexiones_diamante">Diamond push-ups</string>
     <string name="ej_flexiones_explosivas">Explosive push-ups</string>
     <string name="ej_fondos_en_paralelas">Parallel bar dips</string>
-    <string name="ej_fondos_en_paralelas">Parallel bar dips</string>
     <string name="ej_golpeo_en_manoplas">Mitt work</string>
     <string name="ej_jab_cross_en_saco">Jab-Cross on heavy bag</string>
     <string name="ej_jalon_al_pecho">Lat pulldown</string>
@@ -342,7 +341,6 @@
     <string name="ej_muscle_ups_o_intento">Muscle-Ups (or attempt)</string>
     <string name="ej_patadas_en_saco">Kicks on heavy bag</string>
     <string name="ej_peso_muerto">Deadlift</string>
-    <string name="ej_peso_muerto">Deadlift</string>
     <string name="ej_peso_muerto_rumano">Romanian deadlift</string>
     <string name="ej_pistol_squats_pistola">Pistol Squats</string>
     <string name="ej_plancha">Plank</string>
@@ -353,9 +351,7 @@
     <string name="ej_press_banca_inclinado">Incline bench press</string>
     <string name="ej_press_de_banca">Bench press</string>
     <string name="ej_press_inclinado_mancuernas">Incline dumbbell press</string>
-    <string name="ej_press_militar">Military press</string>
     <string name="ej_press_militar_barra">Barbell military press</string>
-    <string name="ej_remo_con_barra">Barbell row</string>
     <string name="ej_remo_con_barra">Barbell row</string>
     <string name="ej_remo_en_polea_baja">Seated cable row</string>
     <string name="ej_repetir_circuito_x3">Repeat circuit x3</string>

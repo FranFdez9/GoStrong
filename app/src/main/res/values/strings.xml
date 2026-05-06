@@ -330,7 +330,6 @@
     <string name="ej_flexiones_diamante">Flexiones Diamante</string>
     <string name="ej_flexiones_explosivas">Flexiones explosivas</string>
     <string name="ej_fondos_en_paralelas">Fondos en Paralelas</string>
-    <string name="ej_fondos_en_paralelas">Fondos en paralelas</string>
     <string name="ej_golpeo_en_manoplas">Golpeo en manoplas</string>
     <string name="ej_jab_cross_en_saco">Jab-Cross en saco</string>
     <string name="ej_jalon_al_pecho">Jalón al pecho</string>
@@ -342,7 +341,6 @@
     <string name="ej_muscle_ups_o_intento">Muscle-Ups (o intento)</string>
     <string name="ej_patadas_en_saco">Patadas en saco</string>
     <string name="ej_peso_muerto">Peso Muerto</string>
-    <string name="ej_peso_muerto">Peso muerto</string>
     <string name="ej_peso_muerto_rumano">Peso muerto rumano</string>
     <string name="ej_pistol_squats_pistola">Pistol Squats (Pistola)</string>
     <string name="ej_plancha">Plancha</string>
@@ -353,10 +351,8 @@
     <string name="ej_press_banca_inclinado">Press banca inclinado</string>
     <string name="ej_press_de_banca">Press de Banca</string>
     <string name="ej_press_inclinado_mancuernas">Press inclinado mancuernas</string>
-    <string name="ej_press_militar">Press militar</string>
     <string name="ej_press_militar_barra">Press militar barra</string>
     <string name="ej_remo_con_barra">Remo con Barra</string>
-    <string name="ej_remo_con_barra">Remo con barra</string>
     <string name="ej_remo_en_polea_baja">Remo en polea baja</string>
     <string name="ej_repetir_circuito_x3">Repetir circuito x3</string>
     <string name="ej_rodaje_suave_zona_2">Rodaje suave (zona 2)</string>
