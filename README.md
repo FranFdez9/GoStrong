@@ -19,7 +19,12 @@ GoStrong is a modern Android application designed for managing workout routines 
 *   **Dependency Management:** Gradle (KTS)
 
 ## 📱 Screenshots
-*(Add application screenshots here)*
+<p align="center">
+  <img src="assets/screen1.png" width="22%" />
+  <img src="assets/screen2.png" width="22%" />
+  <img src="assets/screen3.png" width="22%" />
+  <img src="assets/screen4.png" width="22%" />
+</p>
 
 ## ⚙️ Setup and Execution
 
