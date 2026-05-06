@@ -20,10 +20,14 @@ GoStrong is a modern Android application designed for managing workout routines 
 
 ## 📱 Screenshots
 <p align="center">
-  <img src="assets/screen1.png" width="22%" />
-  <img src="assets/screen2.png" width="22%" />
-  <img src="assets/screen3.png" width="22%" />
-  <img src="assets/screen4.png" width="22%" />
+  <img src="<img width="521" height="880" alt="Captura home GoStrong" src="https://github.com/user-attachments/assets/e88ac6ea-9937-4151-b9a6-121816a94835" />
+" width="22%" />
+  <img src="<img width="480" height="891" alt="rutinas GoStrong" src="https://github.com/user-attachments/assets/87296281-c152-4181-8795-46350dbe2d6c" />
+" width="22%" />
+  <img src="<img width="525" height="904" alt="captura salud GoStrong" src="https://github.com/user-attachments/assets/20ffe5f1-9652-436f-a19b-e9729f12cf7b" />
+" width="22%" />
+  <img src="<img width="592" height="903" alt="Dietas GoStrong" src="https://github.com/user-attachments/assets/147bc03c-511f-4962-a3d5-074edf26b16c" />
+" width="22%" />
 </p>
 
 ## ⚙️ Setup and Execution
