@@ -59,7 +59,7 @@ fun DetalleDietaScreen(
     val dia5 = stringResource(id = R.string.dia_viernes)
     val dia6 = stringResource(id = R.string.dia_sabado)
     val dia7 = stringResource(id = R.string.dia_domingo)
-    val diasOrdenados = listOf(dia1, dia2, dia3, dia4, dia5, dia6, dia7)
+    val diasOrdenados = listOf("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo")
     
     val m1 = stringResource(id = R.string.detalle_dieta_desayuno)
     val m2 = stringResource(id = R.string.detalle_dieta_media_manana)
@@ -130,8 +130,18 @@ fun DetalleDietaScreen(
                 diasActivos.forEach { dia ->
                     val comidasDia = porDia[dia] ?: emptyList()
                     val calDia     = comidasDia.sumOf { it.calorias }
+                    val nombreDia = when(dia) {
+                        "Lunes" -> dia1
+                        "Martes" -> dia2
+                        "Miércoles" -> dia3
+                        "Jueves" -> dia4
+                        "Viernes" -> dia5
+                        "Sábado" -> dia6
+                        "Domingo" -> dia7
+                        else -> dia
+                    }
 
-                    item { DiaDietaHeader(dia = dia, calorias = calDia) }
+                    item { DiaDietaHeader(dia = nombreDia, calorias = calDia) }
                     items(comidasDia) { comida -> ComidaRow(comida, Modifier.padding(horizontal = 16.dp)) }
                     item { Spacer(Modifier.height(8.dp)) }
                 }

@@ -59,7 +59,7 @@ fun DetalleRutinaScreen(
     val dia5 = stringResource(id = R.string.dia_viernes)
     val dia6 = stringResource(id = R.string.dia_sabado)
     val dia7 = stringResource(id = R.string.dia_domingo)
-    val diasOrdenados = listOf(dia1, dia2, dia3, dia4, dia5, dia6, dia7)
+    val diasOrdenados = listOf("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo")
     val tituloEjercicios = stringResource(id = R.string.detalle_rutina_ejercicios_sesion)
 
     Scaffold(
@@ -196,9 +196,19 @@ fun DetalleRutinaScreen(
 
                 diasActivos.forEach { dia ->
                     val lista = porDia[dia] ?: emptyList()
+                    val nombreDia = when(dia) {
+                        "Lunes" -> dia1
+                        "Martes" -> dia2
+                        "Miércoles" -> dia3
+                        "Jueves" -> dia4
+                        "Viernes" -> dia5
+                        "Sábado" -> dia6
+                        "Domingo" -> dia7
+                        else -> dia
+                    }
 
                     item {
-                        DiaHeader(dia = dia, numEjercicios = lista.size)
+                        DiaHeader(dia = nombreDia, numEjercicios = lista.size)
                     }
                     items(lista) { ejercicio ->
                         EjercicioRow(ejercicio, Modifier.padding(horizontal = 16.dp))
