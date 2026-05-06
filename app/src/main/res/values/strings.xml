@@ -1,0 +1,293 @@
+<resources>
+    <string name="app_name">GoStrong</string>
+    
+    <!-- Navegación BOTTOM -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_rutinas">Rutinas</string>
+    <string name="nav_dietas">Dietas</string>
+    <string name="nav_salud">Salud</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_ajustes">Ajustes</string>
+    <!-- Catálogo Rutinas -->
+    <string name="cat_rut_1_nombre">Fullbody Principiante</string>
+    <string name="cat_rut_1_desc">Rutina fullbody 3 días a la semana. Perfecta para empezar en el gimnasio.</string>
+    <string name="cat_rut_2_nombre">Push Pull 4 Días</string>
+    <string name="cat_rut_2_desc">Rutina Push/Pull de 4 días. Empuje (pecho, hombros, tríceps) y tirón (espalda, bíceps).</string>
+    <string name="cat_rut_3_nombre">Sesión Pierna Completa</string>
+    <string name="cat_rut_3_desc">Sesión de pierna intensa: cuádriceps, isquios y gemelos.</string>
+    <string name="cat_rut_4_nombre">Boxeo Principiante 3 Días</string>
+    <string name="cat_rut_4_desc">Introducción al boxeo: técnica, acondicionamiento y golpeo básico.</string>
+    <string name="cat_rut_5_nombre">MMA Intermedio 4 Días</string>
+    <string name="cat_rut_5_desc">Rutina MMA completa: striking, grappling, fuerza y acondicionamiento.</string>
+    <string name="cat_rut_6_nombre">Sesión Boxeo Intensa</string>
+    <string name="cat_rut_6_desc">Sesión de boxeo completa de ~60 minutos. Técnica + saco + acondicionamiento.</string>
+    <string name="cat_rut_7_nombre">Running Principiante C25K</string>
+    <string name="cat_rut_7_desc">Programa de 3 días para pasar de caminar a correr 5km. Basado en el método C25K.</string>
+    <string name="cat_rut_8_nombre">HIIT + Cardio 4 Días</string>
+    <string name="cat_rut_8_desc">Combina sesiones HIIT explosivas con cardio de baja intensidad para quemar grasa.</string>
+    <string name="cat_rut_9_nombre">HIIT Express 20 Minutos</string>
+    <string name="cat_rut_9_desc">Sesión de alta intensidad en solo 20 minutos. Sin material, máxima quema calórica.</string>
+    <string name="cat_rut_10_nombre">Fuerza Powerlifting 5x5</string>
+    <string name="cat_rut_10_desc">El método 5x5 para ganar pura fuerza levantando las máximas cargas en movimientos básicos.</string>
+    <string name="cat_rut_11_nombre">Dominio Corporal Calistenia</string>
+    <string name="cat_rut_11_desc">Entrenamiento usando exclusivamente tu peso corporal (parque de barras o casa).</string>
+
+    <!-- Catálogo Dietas -->
+    <string name="cat_diet_1_nombre">Plan Déficit Calórico</string>
+    <string name="cat_diet_1_desc">Plan semanal con déficit moderado de 400-500 kcal. Equilibrado y sostenible.</string>
+    <string name="cat_diet_2_nombre">Día Vegano Hipocalórico</string>
+    <string name="cat_diet_2_desc">Un día completo vegano con déficit calórico. Rico en fibra y micronutrientes.</string>
+    <string name="cat_diet_3_nombre">Plan Volumen Limpio</string>
+    <string name="cat_diet_3_desc">Superávit calórico moderado con alto aporte proteico para ganar masa muscular.</string>
+    <string name="cat_diet_4_nombre">Día Volumen Sin Gluten</string>
+    <string name="cat_diet_4_desc">Un día de volumen sin gluten. Alto en proteínas con fuentes libres de trigo.</string>
+    <string name="cat_diet_5_nombre">Mantenimiento Sin Lácteos</string>
+    <string name="cat_diet_5_desc">Plan semanal equilibrado sin productos lácteos. Alternativas vegetales incluidas.</string>
+    <string name="cat_diet_6_nombre">Día Equilibrado</string>
+    <string name="cat_diet_6_desc">Un día completo y equilibrado para mantener tu peso con todos los macros cubiertos.</string>
+    <string name="cat_diet_7_nombre">Plan Definición Muscular</string>
+    <string name="cat_diet_7_desc">Alto en proteínas y bajo en carbohidratos. Mantiene músculo mientras elimina grasa.</string>
+    <string name="cat_diet_8_nombre">Día Definición Vegana</string>
+    <string name="cat_diet_8_desc">Un día vegano optimizado para definir: alto en proteína vegetal y bajo en grasa.</string>
+    <string name="cat_diet_9_nombre">Día Keto QuemaGrasa</string>
+    <string name="cat_diet_9_desc">Plan cetogénico rico en grasas saludables. Ideal para forzar al cuerpo a usar grasa como energía.</string>
+    <string name="cat_diet_10_nombre">Día Bulking Extremo</string>
+    <string name="cat_diet_10_desc">Día de volumen potente para personas a las que les cuesta mucho subir de peso o muy activas.</string>
+
+    <!-- Ajustes -->
+    <string name="ajustes_titulo">Ajustes</string>
+    <string name="ajustes_accesibilidad_visual">Accesibilidad visual</string>
+    <string name="ajustes_desc_accesibilidad">Selecciona el modo que mejor se adapte a tu visión. El cambio se aplica al instante.</string>
+    <string name="ajustes_idioma_app">Idioma de la aplicación</string>
+    <string name="ajustes_info_modos_titulo">ℹ️ Sobre los modos de color</string>
+    <string name="ajustes_info_modos_desc">Las paletas están basadas en el estándar de Wong (2011), diseñado específicamente para garantizar la máxima distinción de colores en los distintos tipos de daltonismo.</string>
+    
+    <string name="modo_normal">Normal</string>
+    <string name="modo_normal_desc">Tema estándar para visión normal</string>
+    <string name="modo_deuteranopia">Deuteranopia</string>
+    <string name="modo_deuteranopia_desc">Optimizado para dificultad rojo-verde</string>
+    <string name="modo_protanopia">Protanopia</string>
+    <string name="modo_protanopia_desc">Optimizado para sensibilidad reducida al rojo</string>
+    <string name="modo_tritanopia">Tritanopia</string>
+    <string name="modo_tritanopia_desc">Optimizado para dificultad azul-amarillo</string>
+    <!-- Login -->
+    <string name="login_error_activity">Error: MainActivity debe heredar de FragmentActivity</string>
+    <string name="login_inicia_primera_vez">Inicia sesión con contraseña la primera vez</string>
+    <string name="login_acceso_biometrico_titulo">Acceso a GoStrong</string>
+    <string name="login_acceso_biometrico_subtitulo">Usa tu Biometría para entrar rápidamente</string>
+    <string name="login_usar_contrasena">Usar Contraseña</string>
+    <string name="login_bienvenido">Bienvenido de nuevo campeón</string>
+    <string name="login_correo">Correo electrónico</string>
+    <string name="login_contrasena">Contraseña</string>
+    <string name="login_ocultar_mostrar_pass">Ocultar o mostrar password</string>
+    <string name="login_completar_todo">Por favor, complétalo todo</string>
+    <string name="login_credenciales_incorrectas">Credenciales incorrectas</string>
+    <string name="cargando">Cargando...</string>
+    <string name="login_entrar">ENTRAR</string>
+    <string name="login_entrar_biometria">Entrar con Face ID / Huella</string>
+    <string name="login_olvido_contrasena">¿Has olvidado tu contraseña?</string>
+    <string name="login_no_tienes_cuenta">¿No tienes cuenta? Crea una aquí</string>
+    <string name="login_recuperar_contrasena">Recuperar contraseña</string>
+    <string name="login_tu_correo">Tu correo electrónico</string>
+    <string name="login_correo_enviado">Correo enviado. Revisa tu bandeja de entrada.</string>
+    <string name="login_error">Error:</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <!-- Registro -->
+    <string name="registro_selecciona_fecha">Selecciona tu fecha</string>
+    <string name="registro_hombre">Hombre</string>
+    <string name="registro_mujer">Mujer</string>
+    <string name="registro_otro">Otro</string>
+    <string name="registro_novato">Novato</string>
+    <string name="registro_normal">Normal</string>
+    <string name="registro_avanzado">Avanzado</string>
+    <string name="registro_perder_peso">Perder peso</string>
+    <string name="registro_mantener">Mantener</string>
+    <string name="registro_ganar_musculo">Ganar músculo</string>
+    <string name="registro_crea_tu_cuenta">Crea tu Cuenta</string>
+    <string name="registro_unete">Únete a GoStrong hoy mismo</string>
+    <string name="registro_datos_cuenta">1. Datos de Cuenta</string>
+    <string name="registro_nombre_usuario">Nombre de usuario</string>
+    <string name="registro_email">Email</string>
+    <string name="registro_contrasena">Contraseña</string>
+    <string name="registro_perfil_fisico">2. Perfil Físico</string>
+    <string name="registro_altura">Altura: %1$d cm</string>
+    <string name="registro_peso_actual">"Peso actual:\n%1$d kg"</string>
+    <string name="registro_objetivo_peso">"Objetivo:\n%1$d kg"</string>
+    <string name="registro_metas">3. Metas de Entrenamiento</string>
+    <string name="registro_objetivo">Objetivo:</string>
+    <string name="registro_nivel">Nivel:</string>
+    <string name="registro_dias_semana">Días a la semana: %1$d</string>
+    <string name="registro_alergias">Alergias / Lesiones (opcional)</string>
+    <string name="registro_rellena_campos">⚠️ Por favor, rellena todos los campos obligatorios.</string>
+    <string name="registro_creando_perfil">Creando perfil...</string>
+    <string name="registro_comenzar">Comenzar mi transformación</string>
+    <!-- Perfil -->
+    <string name="perfil_cerrar_sesion">Cerrar sesión</string>
+    <string name="perfil_editar_perfil">Editar perfil</string>
+    <string name="perfil_ajustes">Ajustes</string>
+    <string name="perfil_confirmar_cerrar_sesion">¿Cerrar sesión?</string>
+    <string name="perfil_volveras_inicio">Volverás a la pantalla de inicio.</string>
+    <string name="perfil_salir">Salir</string>
+    <string name="perfil_cancelar">Cancelar</string>
+    <string name="perfil_rutinas">Rutinas</string>
+    <string name="perfil_dietas">Dietas</string>
+    <string name="perfil_registros">Registros</string>
+    <string name="perfil_datos_personales">Datos Personales</string>
+    <string name="perfil_nombre">Nombre</string>
+    <string name="perfil_email">Email</string>
+    <string name="perfil_sexo">Sexo</string>
+    <string name="perfil_nacimiento">Nacimiento</string>
+    <string name="perfil_alergias">Alergias</string>
+    <string name="perfil_datos_fisicos">Datos Físicos</string>
+    <string name="perfil_altura">Altura</string>
+    <string name="perfil_peso_actual">Peso actual</string>
+    <string name="perfil_peso_objetivo">Peso objetivo</string>
+    <string name="perfil_dias_semana">Días/semana</string>
+    <string name="perfil_editar_perfil_titulo">Editar Perfil</string>
+    <string name="perfil_nombre_usuario">Nombre de usuario</string>
+    <string name="perfil_altura_cm">Altura (cm)</string>
+    <string name="perfil_peso_kg">Peso (kg)</string>
+    <string name="perfil_peso_objetivo_kg">Peso objetivo (kg)</string>
+    <string name="perfil_objetivo">Objetivo</string>
+    <string name="perfil_mantenimiento">Mantenimiento</string>
+    <string name="perfil_definicion">Definición</string>
+    <string name="perfil_principiante">Principiante</string>
+    <string name="perfil_intermedio">Intermedio</string>
+    <string name="perfil_nivel">Nivel</string>
+    <string name="perfil_restricciones">Alergias / Restricciones</string>
+    <string name="perfil_ninguna">Ninguna</string>
+    <string name="perfil_guardar">Guardar</string>
+    <string name="perfil_no_indicado">No indicado</string>
+    <!-- Salud -->
+    <string name="salud_titulo">Salud</string>
+    <string name="salud_peso_actual">Peso actual</string>
+    <string name="salud_peso_objetivo">Peso objetivo</string>
+    <string name="salud_diferencia">Diferencia</string>
+    <string name="salud_registrar_peso_actual">Registrar peso actual</string>
+    <string name="salud_registra_minimo_dos_pesos">Registra al menos 2 pesos para ver tu evolución 📈</string>
+    <string name="salud_diario_actividades">Tu Diario de Actividades</string>
+    <string name="salud_sin_registros">Aún no tienes registros guardados.</string>
+    <string name="salud_registrar_peso_titulo">Registrar peso</string>
+    <string name="salud_introduce_peso">Introduce tu peso actual en kg:</string>
+    <string name="salud_peso_kg">Peso (kg)</string>
+    <string name="salud_guardar">Guardar</string>
+    <string name="salud_cancelar">Cancelar</string>
+    <string name="salud_error_numero_invalido">Introduce un número válido</string>
+    <string name="salud_error_rango_peso">El peso debe estar entre 30 y 300 kg</string>
+    <string name="salud_imc_titulo">Índice de Masa Corporal</string>
+    <string name="salud_unidad_imc">kg/m²</string>
+    <string name="salud_calorias_diarias">Calorías diarias recomendadas</string>
+    <string name="salud_kcal_dia">kcal/día</string>
+    <string name="salud_para_perder_peso">Para perder peso (-300 kcal)</string>
+    <string name="salud_para_ganar_musculo">Para ganar músculo (+300 kcal)</string>
+    <string name="salud_para_mantenimiento">Para mantenimiento</string>
+    <string name="salud_tmb_base">TMB base (Mifflin-St Jeor): %1$d kcal</string>
+    <string name="salud_evolucion_peso">Evolución del peso</string>
+    <string name="salud_ultimo_registro">Último registro: %1$s kg — %2$s</string>
+    <!-- Rutinas -->
+    <string name="rutina_todos">Todos</string>
+    <string name="rutina_anadida">✅ Rutina añadida a tu lista</string>
+    <string name="rutina_anadir_sr">Añadir rutina</string>
+    <string name="rutina_mis_rutinas">Mis Rutinas</string>
+    <string name="rutina_tus_rutinas_guardadas">Tus rutinas guardadas</string>
+    <string name="rutina_dias_sem">%1$d días/sem</string>
+    <string name="rutina_sesion_unica">Sesión única</string>
+    <string name="rutina_eliminar">Eliminar</string>
+    <string name="rutina_aun_no_tienes">Aún no tienes rutinas</string>
+    <string name="rutina_elige_catalogo">Elige una del catálogo para empezar</string>
+    <string name="rutina_ver_catalogo">Ver catálogo</string>
+    <string name="rutina_catalogo_rutinas">Catálogo de Rutinas</string>
+    <string name="rutina_anadir">Añadir</string>
+    <!-- Home -->
+    <string name="home_buenos_dias">¡Buenos días</string>
+    <string name="home_buenas_tardes">¡Buenas tardes</string>
+    <string name="home_buenas_noches">¡Buenas noches</string>
+    <string name="home_listo_entrenar">¿Listo para entrenar hoy?</string>
+    <string name="home_frase_del_dia">💬 Frase del día</string>
+    <string name="home_accesos_rapidos">Accesos rápidos</string>
+    <string name="home_rutinas">Rutinas</string>
+    <string name="home_dietas">Dietas</string>
+    <string name="home_salud">Salud</string>
+    <string name="home_perfil">Perfil</string>
+    <string name="home_ajustes">Ajustes</string>
+    <string name="home_planes_entrenamiento">Tus planes de entrenamiento</string>
+    <string name="home_planes_alimentacion">Planes de alimentación</string>
+    <string name="home_gostrong_desc">Tu app de entrenamiento y salud. Constancia es la clave del progreso.</string>
+
+    <string-array name="home_frases">
+        <item>El único mal entrenamiento es el que no hiciste.</item>
+        <item>El dolor de hoy es la fuerza de mañana.</item>
+        <item>Tu cuerpo puede hacerlo. Convence a tu mente.</item>
+        <item>No pares cuando estés cansado. Para cuando hayas terminado.</item>
+        <item>Cada repetición te acerca más a tu objetivo.</item>
+        <item>El esfuerzo de hoy es el resultado de mañana.</item>
+        <item>Los campeones entrenan incluso cuando no les apetece.</item>
+    </string-array>
+    <string-array name="home_frases_sub">
+        <item>Empieza hoy 💪</item>
+        <item>Sigue adelante 🔥</item>
+        <item>Tú puedes 🧠</item>
+        <item>Sin excusas ⚡</item>
+        <item>Un paso más 🏆</item>
+        <item>Confía el proceso 📈</item>
+        <item>Sé campeón 🥇</item>
+    </string-array>
+    <!-- Dieta -->
+    <string name="dieta_todos">Todos</string>
+    <string name="dieta_anadida">✅ Dieta añadida a tu lista</string>
+    <string name="dieta_anadir_sr">Añadir dieta</string>
+    <string name="dieta_mis_dietas">Mis Dietas</string>
+    <string name="dieta_tus_planes_alimentacion">Tus planes de alimentación</string>
+    <string name="dieta_kcal">~%1$d kcal</string>
+    <string name="dieta_plan_semanal">Plan semanal</string>
+    <string name="dieta_un_dia">Un día</string>
+    <string name="dieta_aun_no_tienes">Aún no tienes dietas</string>
+    <string name="dieta_elige_catalogo">Elige un plan del catálogo para empezar</string>
+    <string name="dieta_catalogo_dietas">Catálogo de Dietas</string>
+
+    <!-- Detalle Rutina -->
+    <string name="detalle_rutina_volver">Volver</string>
+    <string name="detalle_rutina_guardar_sesion">Guardar Sesión</string>
+    <string name="detalle_rutina_registrar_hoy">Registrar Hoy</string>
+    <string name="detalle_rutina_como_ha_ido">¿Cómo ha ido la sesión de hoy?</string>
+    <string name="detalle_rutina_elige_nivel">Elige tu nivel de cumplimiento:</string>
+    <string name="detalle_rutina_100">✅ 100%</string>
+    <string name="detalle_rutina_a_medias">⏸️ A Medias</string>
+    <string name="detalle_rutina_saltado">❌ Saltado</string>
+    <string name="detalle_rutina_notas">Notas (Opcional)</string>
+    <string name="detalle_rutina_ej_notas">Ej: Solo hice el Tábata</string>
+    <string name="detalle_rutina_habito_guardado">Hábito guardado correctamente en tu historial</string>
+    <string name="detalle_rutina_guardar_diario">Guardar en mi Diario</string>
+    <string name="detalle_rutina_total_ejercicios">%1$d ejercicios en total</string>
+    <string name="detalle_rutina_num_ejercicios">(%1$d ejercicios)</string>
+    <string name="detalle_rutina_ejercicios_sesion">Ejercicios de la sesión</string>
+
+    <!-- Días -->
+    <string name="dia_lunes">Lunes</string>
+    <string name="dia_martes">Martes</string>
+    <string name="dia_miercoles">Miércoles</string>
+    <string name="dia_jueves">Jueves</string>
+    <string name="dia_viernes">Viernes</string>
+    <string name="dia_sabado">Sábado</string>
+    <string name="dia_domingo">Domingo</string>
+
+    <!-- Detalle Dieta -->
+    <string name="detalle_dieta_anotar">Anotar Dieta</string>
+    <string name="detalle_dieta_comidas_total">%1$d comidas en total</string>
+    <string name="detalle_dieta_comidas">Comidas del día</string>
+    <string name="detalle_dieta_registrar">Registrar Dieta</string>
+    <string name="detalle_dieta_pregunta">¿Has cumplido con el plan alimenticio de hoy?</string>
+    <string name="detalle_dieta_ej_notas">Ej: Pequé con un trozo de tarta...</string>
+    <string name="detalle_dieta_prot">Prot</string>
+    <string name="detalle_dieta_carbs">Carbs</string>
+    <string name="detalle_dieta_grasas">Grasas</string>
+    <string name="detalle_dieta_seguida">SEGUIDA</string>
+    <string name="detalle_dieta_con_trampas">CON TRAMPAS</string>
+    <string name="detalle_dieta_saltada">SALTADA</string>
+    <string name="detalle_dieta_desayuno">Desayuno</string>
+    <string name="detalle_dieta_media_manana">Media mañana</string>
+    <string name="detalle_dieta_comida">Comida</string>
+    <string name="detalle_dieta_merienda">Merienda</string>
+    <string name="detalle_dieta_cena">Cena</string>
+</resources>
